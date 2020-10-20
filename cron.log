@@ -1,0 +1,13 @@
+2020-10-20 19:30:49.930:root:INFO: Initialization start
+2020-10-20 19:30:49.930:root:INFO: Getting cron jobs
+2020-10-20 19:31:00.965:root:INFO: Updating cron jobs
+2020-10-20 19:31:00.966:root:INFO: Trying to create a process
+2020-10-20 19:31:00.966:root:INFO: Trying to create a process
+2020-10-20 19:31:00.969:root:WARNING: [Errno 2] No such file or directory: 'safasf'
+2020-10-20 19:31:01.424:root:INFO: Process created
+2020-10-20 19:32:01.049:schedule:INFO: Running job Every 1 minute do createJobs() (last run: [never], next run: 2020-10-20 19:32:00)
+2020-10-20 19:32:01.051:root:INFO: Updating cron jobs
+2020-10-20 19:32:01.051:root:INFO: Trying to create a process
+2020-10-20 19:32:01.052:root:INFO: Trying to create a process
+2020-10-20 19:32:01.054:root:WARNING: [Errno 2] No such file or directory: 'safasf'
+2020-10-20 19:32:01.505:root:INFO: Process created
