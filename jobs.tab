@@ -1,3 +1,8 @@
-*/1 * * * * /usr/bin/gnome-terminal
-*/1 * * * * safasf
-#
+*/1 * * * * echo "Command */1 * * * *" > /home/electrik/Python/CronPy/output.txt
+
+*/5 * * * * echo "Command */5 * * * *" > /home/electrik/Python/CronPy/output.txt
+
+* * * * * echo "Command * * * * *" > /home/electrik/Python/CronPy/output.txt
+
+* 6 * * * echo "Command * 6 * * *" > /home/electrik/Python/CronPy/output.txt
+
