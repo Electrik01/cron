@@ -31,7 +31,11 @@ class Job:
 
 def setCronJobs():
     cronJobs.clear()
-    cron = CronTab(tabfile=cronPath)
+    try:       
+        cron = CronTab(tabfile=cronPath)
+    except FileNotFoundError as e:
+        logging.warning(e)
+        os._exit(os.EX_OSERR)
     for cronItem in cron:
         cronJobs.append(Job(cronItem))
     if len(cronJobs)==0:
@@ -46,12 +50,20 @@ def setCronJobs():
 def initialization():
     global cronJobs,base,cronPath,h_time
     currentDate = datetime.now()
-    timeZone = pytz.timezone(config.TIME_ZONE)
-    base = timeZone.localize(datetime.now())
-    cronJobs=[]
-    h_time = config.HIBERNATION_PERIOD
-    cronPath=config.CRONTAB_PATH
-    logging.config.fileConfig(config.LOGS_CONFIG)
+    try:
+        logging.config.fileConfig(config.LOGS_CONFIG)
+    except KeyError as e:
+        print(e)
+        os._exit(os.EX_OSERR)
+    try:
+        timeZone = pytz.timezone(config.TIME_ZONE)
+        base = timeZone.localize(datetime.now())
+        cronJobs=[]
+        h_time = int(config.HIBERNATION_PERIOD)
+        cronPath=config.CRONTAB_PATH
+    except Exception as e:
+        logging.warning(e)
+        os._exit(os.EX_OSERR)
     logging.info("Initialization complete")
 
 def cron():
