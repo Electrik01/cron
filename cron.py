@@ -30,6 +30,7 @@ class Job:
                 self.time = self.iter.get_next(datetime)
 
 def setCronJobs():
+    cronJobs.clear()
     cron = CronTab(tabfile=cronPath)
     for cronItem in cron:
         cronJobs.append(Job(cronItem))
@@ -37,23 +38,21 @@ def setCronJobs():
         logging.info("Hibernation. No task")
         m_time = os.stat(cronPath).st_mtime
         while os.stat(cronPath).st_mtime == m_time:
-            time.sleep(30)
+            time.sleep(h_time)
         logging.info("Trying to start")
         setCronJobs()
     
 
 def initialization():
-    global cronJobs,base,cronPath
+    global cronJobs,base,cronPath,h_time
     currentDate = datetime.now()
     timeZone = pytz.timezone(config.TIME_ZONE)
     base = timeZone.localize(datetime.now())
     cronJobs=[]
+    h_time = config.HIBERNATION_PERIOD
     cronPath=config.CRONTAB_PATH
     logging.config.fileConfig(config.LOGS_CONFIG)
     logging.info("Initialization complete")
-
-def setup():
-    setCronJobs()
 
 def cron():
     m_time = os.stat(cronPath).st_mtime
@@ -69,7 +68,7 @@ def cron():
 
 def main():
     initialization()
-    setup()
+    setCronJobs()
     cron()
     
                 
