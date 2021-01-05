@@ -1,13 +1,189 @@
-2020-10-20 19:30:49.930:root:INFO: Initialization start
-2020-10-20 19:30:49.930:root:INFO: Getting cron jobs
-2020-10-20 19:31:00.965:root:INFO: Updating cron jobs
-2020-10-20 19:31:00.966:root:INFO: Trying to create a process
-2020-10-20 19:31:00.966:root:INFO: Trying to create a process
-2020-10-20 19:31:00.969:root:WARNING: [Errno 2] No such file or directory: 'safasf'
-2020-10-20 19:31:01.424:root:INFO: Process created
-2020-10-20 19:32:01.049:schedule:INFO: Running job Every 1 minute do createJobs() (last run: [never], next run: 2020-10-20 19:32:00)
-2020-10-20 19:32:01.051:root:INFO: Updating cron jobs
-2020-10-20 19:32:01.051:root:INFO: Trying to create a process
-2020-10-20 19:32:01.052:root:INFO: Trying to create a process
-2020-10-20 19:32:01.054:root:WARNING: [Errno 2] No such file or directory: 'safasf'
-2020-10-20 19:32:01.505:root:INFO: Process created
+2021-01-01 19:07:28.098:root:INFO: Initialization start
+2021-01-01 19:08:00.150:root:INFO: Trying to create a process
+2021-01-01 19:08:00.152:root:INFO: Trying to create a process
+2021-01-01 19:08:00.153:root:INFO: Trying to create a process
+2021-01-01 19:08:00.154:root:INFO: Process created
+2021-01-01 19:08:00.155:root:INFO: Process created
+2021-01-01 19:08:00.156:root:INFO: Process created
+2021-01-02 17:51:59.725:root:INFO: File has been modified
+2021-01-02 17:52:24.573:root:INFO: Initialization complete
+2021-01-02 17:53:15.540:root:INFO: Initialization complete
+2021-01-02 17:54:08.330:root:INFO: Initialization complete
+2021-01-02 17:56:09.891:root:INFO: Initialization complete
+2021-01-02 17:57:21.499:root:INFO: Initialization complete
+2021-01-02 17:57:41.489:root:INFO: Initialization complete
+2021-01-02 17:57:54.550:root:INFO: Initialization complete
+2021-01-02 17:58:11.625:root:INFO: Initialization complete
+2021-01-02 17:59:42.154:root:INFO: Initialization complete
+2021-01-02 18:01:01.083:root:INFO: Initialization complete
+2021-01-02 18:02:30.034:root:INFO: Initialization complete
+2021-01-02 18:03:00.089:root:INFO: Process created. PID: 60968
+2021-01-02 18:03:00.093:root:INFO: Process created. PID: 60969
+2021-01-02 18:03:00.093:root:INFO: Process created. PID: 60971
+2021-01-02 18:03:11.102:root:INFO: File has been modified
+2021-01-02 18:03:53.447:root:INFO: Initialization complete
+2021-01-02 18:04:18.581:root:INFO: Initialization complete
+2021-01-02 18:04:34.243:root:INFO: Initialization complete
+2021-01-02 18:04:58.735:root:INFO: Initialization complete
+2021-01-02 18:05:43.929:root:INFO: Initialization complete
+2021-01-02 18:06:04.616:root:INFO: Initialization complete
+2021-01-02 18:06:28.760:root:INFO: Initialization complete
+2021-01-02 18:06:28.761:root:INFO: Hibernation. No task
+2021-01-02 18:06:58.765:root:INFO: Trying to start
+2021-01-02 18:07:00.780:root:INFO: Process created. PID: 61267
+2021-01-02 18:07:00.781:root:INFO: Process created. PID: 61268
+2021-01-02 18:07:00.782:root:INFO: Process created. PID: 61270
+2021-01-03 02:31:16.069:root:INFO: Initialization complete
+2021-01-03 02:32:00.136:root:INFO: Process created. PID: 63469
+2021-01-03 02:32:00.138:root:INFO: Process created. PID: 63470
+2021-01-03 02:32:00.139:root:INFO: Process created. PID: 63472
+2021-01-03 02:33:00.211:root:INFO: Process created. PID: 63511
+2021-01-03 02:33:00.212:root:INFO: Process created. PID: 63512
+2021-01-03 02:33:00.214:root:INFO: Process created. PID: 63514
+2021-01-03 02:43:43.623:root:INFO: Initialization complete
+2021-01-03 02:44:29.767:root:INFO: Initialization complete
+2021-01-03 02:45:38.065:root:INFO: Initialization complete
+2021-01-03 02:46:00.105:root:INFO: Process created. PID: 63996
+2021-01-03 02:46:00.107:root:INFO: Process created. PID: 63999
+2021-01-03 02:46:00.107:root:INFO: Process created. PID: 63997
+2021-01-03 02:46:28.818:root:INFO: Initialization complete
+2021-01-03 02:47:00.610:root:INFO: Initialization complete
+2021-01-03 02:47:30.412:root:INFO: Initialization complete
+2021-01-03 02:47:45.731:root:INFO: Initialization complete
+2021-01-03 02:48:00.760:root:INFO: Process created. PID: 64093
+2021-01-03 02:48:00.761:root:INFO: Process created. PID: 64094
+2021-01-03 02:48:00.765:root:INFO: Process created. PID: 64096
+2021-01-03 02:54:37.909:root:INFO: Initialization complete
+2021-01-03 02:55:00.953:root:INFO: Process created. PID: 64281
+2021-01-03 02:55:00.955:root:INFO: Process created. PID: 64282
+2021-01-03 02:55:00.956:root:INFO: Process created. PID: 64284
+2021-01-03 02:55:00.957:root:INFO: Process created. PID: 64286
+2021-01-03 02:55:10.966:root:INFO: File has been modified
+2021-01-03 02:55:10.978:root:INFO: Process created. PID: 64294
+2021-01-03 02:55:10.979:root:INFO: Process created. PID: 64295
+2021-01-03 02:55:10.980:root:INFO: Process created. PID: 64297
+2021-01-03 02:55:10.982:root:INFO: Process created. PID: 64299
+2021-01-03 02:55:52.037:root:INFO: File has been modified
+2021-01-03 02:55:52.048:root:INFO: Process created. PID: 64312
+2021-01-03 02:55:52.049:root:INFO: Process created. PID: 64313
+2021-01-03 02:55:52.050:root:INFO: Process created. PID: 64315
+2021-01-03 02:56:00.063:root:INFO: Process created. PID: 64319
+2021-01-03 02:56:00.064:root:INFO: Process created. PID: 64320
+2021-01-03 02:56:00.066:root:INFO: Process created. PID: 64322
+2021-01-03 02:56:00.068:root:INFO: Process created. PID: 64324
+2021-01-03 02:56:00.071:root:INFO: Process created. PID: 64328
+2021-01-03 02:56:00.071:root:INFO: Process created. PID: 64326
+2021-01-03 02:56:00.072:root:INFO: Process created. PID: 64329
+2021-01-03 02:56:00.072:root:INFO: Process created. PID: 64331
+2021-01-03 02:57:00.170:root:INFO: Process created. PID: 64351
+2021-01-03 02:57:00.171:root:INFO: Process created. PID: 64352
+2021-01-03 02:57:00.174:root:INFO: Process created. PID: 64354
+2021-01-03 02:57:00.175:root:INFO: Process created. PID: 64356
+2021-01-03 02:57:00.177:root:INFO: Process created. PID: 64358
+2021-01-03 02:57:00.179:root:INFO: Process created. PID: 64363
+2021-01-03 02:57:00.179:root:INFO: Process created. PID: 64362
+2021-01-03 02:57:00.179:root:INFO: Process created. PID: 64360
+2021-01-03 02:58:00.259:root:INFO: Process created. PID: 64377
+2021-01-03 02:58:00.261:root:INFO: Process created. PID: 64378
+2021-01-03 02:58:00.263:root:INFO: Process created. PID: 64380
+2021-01-03 02:58:00.264:root:INFO: Process created. PID: 64382
+2021-01-03 02:58:00.267:root:INFO: Process created. PID: 64384
+2021-01-03 02:58:00.268:root:INFO: Process created. PID: 64386
+2021-01-03 02:58:00.268:root:INFO: Process created. PID: 64388
+2021-01-03 02:58:00.269:root:INFO: Process created. PID: 64390
+2021-01-03 02:58:30.806:root:INFO: Initialization complete
+2021-01-03 02:58:39.820:root:INFO: File has been modified
+2021-01-03 02:58:54.845:root:INFO: File has been modified
+2021-01-03 02:59:00.864:root:INFO: Process created. PID: 64422
+2021-01-03 02:59:00.867:root:INFO: Process created. PID: 64423
+2021-01-03 02:59:00.869:root:INFO: Process created. PID: 64425
+2021-01-03 02:59:00.870:root:INFO: Process created. PID: 64427
+2021-01-03 02:59:00.871:root:INFO: Process created. PID: 64429
+2021-01-03 02:59:00.871:root:INFO: Process created. PID: 64431
+2021-01-03 02:59:06.877:root:INFO: File has been modified
+2021-01-03 02:59:06.888:root:INFO: Process created. PID: 64438
+2021-01-03 02:59:06.890:root:INFO: Process created. PID: 64439
+2021-01-03 02:59:40.923:root:INFO: Initialization complete
+2021-01-03 03:00:00.961:root:INFO: Process created. PID: 64471
+2021-01-03 03:00:00.963:root:INFO: Process created. PID: 64472
+2021-01-03 03:00:00.964:root:INFO: Process created. PID: 64474
+2021-01-03 03:00:05.966:root:INFO: File has been modified
+2021-01-03 03:00:05.976:root:INFO: Process created. PID: 64484
+2021-01-03 03:00:05.978:root:INFO: Process created. PID: 64485
+2021-01-03 03:00:05.979:root:INFO: Process created. PID: 64487
+2021-01-03 03:00:58.936:root:INFO: Initialization complete
+2021-01-03 03:01:00.947:root:INFO: Process created. PID: 64516
+2021-01-03 03:01:00.948:root:INFO: Process created. PID: 64517
+2021-01-03 03:01:07.954:root:INFO: File has been modified
+2021-01-03 03:01:07.964:root:INFO: Process created. PID: 64529
+2021-01-03 03:01:07.966:root:INFO: Process created. PID: 64530
+2021-01-03 03:02:00.042:root:INFO: Process created. PID: 64537
+2021-01-03 03:02:00.044:root:INFO: Process created. PID: 64538
+2021-01-03 03:03:00.131:root:INFO: Process created. PID: 64551
+2021-01-03 03:03:00.131:root:INFO: Process created. PID: 64552
+2021-01-03 03:04:31.525:root:INFO: Initialization complete
+2021-01-03 03:04:59.515:root:INFO: Initialization complete
+2021-01-03 03:05:00.528:root:INFO: Process created. PID: 64626
+2021-01-03 03:05:00.530:root:INFO: Process created. PID: 64627
+2021-01-03 03:05:00.532:root:INFO: Process created. PID: 64629
+2021-01-03 03:05:47.589:root:INFO: File has been modified
+2021-01-03 03:05:47.600:root:INFO: Process created. PID: 64647
+2021-01-03 03:05:47.602:root:INFO: Process created. PID: 64648
+2021-01-03 03:05:47.602:root:INFO: Process created. PID: 64650
+2021-01-03 03:06:00.626:root:INFO: Process created. PID: 64654
+2021-01-03 03:06:00.626:root:INFO: Process created. PID: 64655
+2021-01-03 03:07:00.703:root:INFO: Process created. PID: 64669
+2021-01-03 03:07:00.706:root:INFO: Process created. PID: 64670
+2021-01-03 03:08:00.781:root:INFO: Process created. PID: 64680
+2021-01-03 03:08:00.783:root:INFO: Process created. PID: 64681
+2021-01-03 03:09:00.873:root:INFO: Process created. PID: 64697
+2021-01-03 03:09:00.875:root:INFO: Process created. PID: 64698
+2021-01-03 03:10:00.961:root:INFO: Process created. PID: 64714
+2021-01-03 03:10:00.963:root:INFO: Process created. PID: 64715
+2021-01-03 03:10:00.965:root:INFO: Process created. PID: 64717
+2021-01-03 03:11:00.056:root:INFO: Process created. PID: 64744
+2021-01-03 03:11:00.058:root:INFO: Process created. PID: 64745
+2021-01-03 03:11:41.110:root:INFO: File has been modified
+2021-01-05 13:12:48.430:root:INFO: Initialization complete
+2021-01-05 13:13:00.461:root:INFO: Process created. PID: 69769
+2021-01-05 13:13:00.463:root:INFO: Process created. PID: 69770
+2021-01-05 13:13:00.464:root:INFO: Process created. PID: 69772
+2021-01-05 13:13:00.466:root:INFO: Process created. PID: 69774
+2021-01-05 13:13:00.468:root:INFO: Process created. PID: 69778
+2021-01-05 13:13:00.468:root:INFO: Process created. PID: 69776
+2021-01-05 13:13:44.521:root:INFO: File has been modified
+2021-01-05 13:13:44.539:root:INFO: Process created. PID: 69800
+2021-01-05 13:13:44.541:root:INFO: Process created. PID: 69801
+2021-01-05 13:13:44.541:root:INFO: Process created. PID: 69802
+2021-01-05 13:13:44.543:root:INFO: Process created. PID: 69805
+2021-01-05 13:13:44.543:root:INFO: Process created. PID: 69807
+2021-01-05 13:13:44.544:root:INFO: Process created. PID: 69808
+2021-01-05 13:14:00.570:root:INFO: Process created. PID: 69816
+2021-01-05 13:14:00.572:root:INFO: Process created. PID: 69817
+2021-01-05 13:14:00.573:root:INFO: Process created. PID: 69819
+2021-01-05 13:14:00.574:root:INFO: Process created. PID: 69821
+2021-01-05 13:14:00.578:root:INFO: Process created. PID: 69823
+2021-01-05 13:14:00.579:root:INFO: Process created. PID: 69825
+2021-01-05 13:14:00.581:root:INFO: Process created. PID: 69827
+2021-01-05 13:14:00.581:root:INFO: Process created. PID: 69828
+2021-01-05 13:14:00.582:root:INFO: Process created. PID: 69830
+2021-01-05 13:14:00.585:root:INFO: Process created. PID: 69833
+2021-01-05 13:14:00.586:root:INFO: Process created. PID: 69835
+2021-01-05 13:14:00.586:root:INFO: Process created. PID: 69837
+2021-01-05 14:04:36.746:root:INFO: Initialization complete
+2021-01-05 14:05:00.801:root:INFO: Process created. PID: 71357
+2021-01-05 14:05:00.804:root:INFO: Process created. PID: 71358
+2021-01-05 14:05:00.805:root:INFO: Process created. PID: 71356
+2021-01-05 14:05:00.806:root:INFO: Process created. PID: 71360
+2021-01-05 14:05:00.807:root:INFO: Process created. PID: 71365
+2021-01-05 14:05:00.807:root:INFO: Process created. PID: 71362
+2021-01-05 14:06:00.906:root:INFO: Process created. PID: 71453
+2021-01-05 14:06:00.909:root:INFO: Process created. PID: 71454
+2021-01-05 14:06:00.911:root:INFO: Process created. PID: 71456
+2021-01-05 14:06:00.913:root:INFO: Process created. PID: 71460
+2021-01-05 14:06:00.913:root:INFO: Process created. PID: 71458
+2021-01-05 14:07:00.996:root:INFO: Process created. PID: 71567
+2021-01-05 14:07:00.998:root:INFO: Process created. PID: 71568
+2021-01-05 14:07:01.000:root:INFO: Process created. PID: 71570
+2021-01-05 14:07:01.002:root:INFO: Process created. PID: 71572
+2021-01-05 14:07:01.002:root:INFO: Process created. PID: 71574

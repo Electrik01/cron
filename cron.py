@@ -1,59 +1,77 @@
-import schedule
-import time
+from datetime import datetime
+from croniter import croniter
+from crontab import CronTab
 import logging
+import logging.config
 import subprocess
 import os
-from datetime import datetime
-from crontab import CronTab
+import time
+import config
+import pytz
+
+
 
 class Job:
-    def __init__(self,cronLine):
-        self.time = cronLine.schedule(date_from=datetime.now()).get_next().strftime("%d.%m.%Y %H:%M")
-        self.command = cronLine.command
-
-
-def getCronJobs():
-    cron = CronTab(tabfile="jobs.tab")  
-    cronJobs.clear()
-    for cronLine in cron:
-        cronJobs.append(Job(cronLine))
-
-def initialization():
-    logging.info("Initialization start")
-    starttime = datetime.now().second
-    logging.info("Getting cron jobs")
-    getCronJobs()
-    time.sleep(60-starttime)
-    createJobs()
-
-###    
-logging.basicConfig(filename='cron.log', filemode='a', level=logging.DEBUG,
-                    format='%(asctime)s.%(msecs)03d:%(name)s:%(levelname)s: %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S')
-cronJobs =  []
-###
-
-def createJobs():
-    for job in cronJobs:
-        if job.time==datetime.now().strftime("%d.%m.%Y %H:%M"):
+    def __init__(self,cronItem):
+        self.iter = croniter(str(cronItem.slices),base)
+        self.command = cronItem.command
+        self.time = self.iter.get_next(datetime)
+    def create(self):
             pid = os.fork()
             if pid==0:
                 try:
-                    logging.info("Trying to create a process")
-                    subprocess.call([job.command])                
+                    subprocess.call([self.command],shell=True)                
                 except Exception as e:
                     logging.warning(e)
                     os._exit(os.EX_OSERR)
-                logging.info("Process created")
+                logging.info("Process created. PID: "+str(os.getpid()))
                 os._exit(os.EX_OK)
-    logging.info("Updating cron jobs")
-    getCronJobs()
+            else:
+                self.time = self.iter.get_next(datetime)
+
+def setCronJobs():
+    cron = CronTab(tabfile=cronPath)
+    for cronItem in cron:
+        cronJobs.append(Job(cronItem))
+    if len(cronJobs)==0:
+        logging.info("Hibernation. No task")
+        m_time = os.stat(cronPath).st_mtime
+        while os.stat(cronPath).st_mtime == m_time:
+            time.sleep(30)
+        logging.info("Trying to start")
+        setCronJobs()
+    
+
+def initialization():
+    global cronJobs,base,cronPath
+    currentDate = datetime.now()
+    timeZone = pytz.timezone(config.TIME_ZONE)
+    base = timeZone.localize(datetime.now())
+    cronJobs=[]
+    cronPath=config.CRONTAB_PATH
+    logging.config.fileConfig(config.LOGS_CONFIG)
+    logging.info("Initialization complete")
+
+def setup():
+    setCronJobs()
+
+def cron():
+    m_time = os.stat(cronPath).st_mtime
+    while True:
+        if os.stat(cronPath).st_mtime != m_time:
+            logging.info("File has been modified")
+            m_time = os.stat(cronPath).st_mtime
+            setCronJobs()
+        for job in cronJobs:
+            if job.time.strftime("%d.%m.%Y %H:%M")==datetime.now().strftime("%d.%m.%Y %H:%M"):
+                job.create()
+        time.sleep(1)
 
 def main():
     initialization()
-    schedule.every().minute.do(createJobs)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
+    setup()
+    cron()
+    
+                
 main()
+

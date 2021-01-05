@@ -1,0 +1,85 @@
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command */5 * * * *
+Command * * * * *
+Command * * * * *
+Command */5 * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command */5 * * * *
+Command * * * * *
+Command * * * * *
+Command */5 * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command */5 * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Command * * * * *
+Every minute
+Every minute at 5th day of the month
+Every minute at 13 hours of 5th day of the month
+Every minute in January
+Every minute on Tuesday in January
+Every minute
+Every minute at 5th day of the month
+Every minute at 13 hours of 5th day of the month
+Every minute in January
+Every minute on Tuesday in January
+Every minute at 5th of the month & from Tuesday to Thursday
+Every minute
+Every minute at 5th day of the month
+Every minute at 13 hours of 5th day of the month
+Every minute in January
+Every minute on Tuesday in January
+Every minute at 5th day of the month
+Every minute
+Every minute at 13 hours of 5th day of the month
+Every minute in January
+Every minute on Tuesday in January
+Every minute at 5th of the month & from Tuesday to Thursday
+Every minute
+Every minute at 5th day of the month
+Command *Every 5 minutes
+Every minute in January
+Every minute on Tuesday in January
+Every minute at 5th of the month & from Tuesday to Thursday
+Every minute
+Every minute at 5th day of the month
+Every minute in January
+Every minute at 5th of the month & from Tuesday to Thursday
+Every minute on Tuesday in January
+Every minute
+Every minute at 5th day of the month
+Every minute in January
+Every minute on Tuesday in January
+Every minute at 5th of the month & from Tuesday to Thursday

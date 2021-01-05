@@ -1,8 +1,15 @@
-*/1 * * * * echo "Command */1 * * * *" > /home/electrik/Python/CronPy/output.txt
-
-*/5 * * * * echo "Command */5 * * * *" > /home/electrik/Python/CronPy/output.txt
-
-* * * * * echo "Command * * * * *" > /home/electrik/Python/CronPy/output.txt
-
-* 6 * * * echo "Command * 6 * * *" > /home/electrik/Python/CronPy/output.txt
-
+*/5 * * * * echo "Command *Every 5 minutes" >> output.txt
+*/10 * * * * echo "Every 10 minutes" >> output.txt
+* * * * * echo "Every minute" >> output.txt
+* 6 * * * echo "Every minute at 6 hours" >> output.txt
+*/6 13 * * * echo "Every 6 minutes at 13 hours" >> output.txt
+*/11 13 * * * echo "Every 11 minutes at 13 hours" >> output.txt
+* * 5 * * echo "Every minute at 5th day of the month" >> output.txt
+* 13 5 * *  echo "Every minute at 13 hours of 5th day of the month" >> output.txt
+1-10 13 5 * *  echo "Every minute from 1 to 10 at 13 hours of 5th day of the month" >> output.txt
+* * * 1 * echo "Every minute in January" >> output.txt
+* * * 1 2 echo "Every minute on Tuesday in January" >> output.txt
+* * 5 * 2-4 echo "Every minute at 5th of the month & from Tuesday to Thursday" >> output.txt
+0 3 25-31 3 7 echo "Summer time" >> output.txt
+#28.03.2021 04:00 > 29.03.2021 02:00 > 29.03.2021 03:00
+13 3 25-31 10 7 echo "Winter time" >> output.txt
